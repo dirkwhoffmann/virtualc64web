@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="refresh" content="10; url=https://vc64web.github.io/" />
+  <script>
+    function lade_von_link(call_url) {
+        let link_param='';
+        let param_pos = call_url.indexOf('#');
+        if(param_pos>0)
+        {
+            link_param = call_url.substring(param_pos);
+        }
+        window.location.replace('https://vc64web.github.io/'+link_param);
+    }
+    setTimeout(()=>{lade_von_link(window.location.href);},3000);
+
+  </script>
+</head>
+<body>
+<p><a href="https://vc64web.github.io/">vc64web moved to a new address https://vc64web.github.io</a></p>
+<br>
+<br>
+if you saved vc64web to your homescreen, please delete and re-add it.
+</body>
+
+</html>
